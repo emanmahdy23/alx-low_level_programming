@@ -7,19 +7,19 @@
  */
 void print_to_98(int n)
 {
-int num;
+int x;
 if (n > 98)
 {
-for (num = n; num > 98; num++)
+for (x = n; x  > 98; x++)
 {
-printf("%d", num);
+printf("%d", x);
 }
 }
 else
 {
-for (num = n; num < 98; num++)
+for (x = n; x < 98; x++)
 {
-pritf("%d", num);
+pritf("%d", x);
 }
 }
 }
