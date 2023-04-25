@@ -19,7 +19,7 @@ else
 {
 for (x = n; x < 98; x++)
 {
-pritf("%d", x);
+printf("%d", x);
 }
 }
 }
