@@ -13,10 +13,10 @@ if (n <= 98)
 {
 for (x = n; x <= 98; x++)
 {
-printf("%d, ", x);
+printf("%d", x);
 }
 for (y = n; y >= 98; y--)
 {
-printf("%d, ", b);
+printf("%d", b);
 }
 }
