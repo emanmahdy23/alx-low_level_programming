@@ -1,11 +1,13 @@
-#include <stido.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
- * int _isdigit(int c) - function that checks for a digit
- * @c: the input
- *  Return: 1 for digit 0 for otherwise
- */
+  * _isdigit - function that checks for uppercase character.
+  *
+  *@c: the input
+  *
+  * Return: 1 for digit 0 for otherwise
+  */
 
 int _isdigit(int c)
 {
