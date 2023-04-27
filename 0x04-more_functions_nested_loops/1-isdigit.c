@@ -3,8 +3,8 @@
 
 /**
  * int _isdigit(int c) - function that checks for a digit
- * @c: the printed catacter
- *  Return: Always 0.
+ * @c: the input
+ *  Return: 1 for digit 0 for otherwise
  */
 
 int _isdigit(int c)
