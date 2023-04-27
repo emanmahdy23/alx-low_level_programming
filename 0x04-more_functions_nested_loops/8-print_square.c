@@ -22,7 +22,7 @@ else
 {
 for (num1 = 1; num1 <= size; num1++)
 {
-for (num2= 0; num2 < size; num2++)
+for (num2 = 0; num2 <= size; num2++)
 _putchar('#');
 _putchar('\n');
 }
