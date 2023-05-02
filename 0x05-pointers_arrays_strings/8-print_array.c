@@ -1,8 +1,8 @@
 #include "main.h"
 /**
 *  print_array - function that prints n element of an array integers
-* @a: elements parameter input
-* @n: the number of elements of the array
+* @n: elements parameter input
+* @a: string parameter input
 */
 void print_array(int *a, int n)
 {
