@@ -4,20 +4,18 @@
 * @n: string
 * Return: string
 */
-char *leet(char *n)
+char *leet(char *c)
 {
-int a, b;
-char s1[] = "aAeEoOtTlL";
-char s2[] = "4433007711";
-for (a = 0; n[a] != '\0'; a++)
+char cp = c;
+char key[] = {'A', 'E', 'O', 'T', 'L'};
+int value[] = {4, 3, 0, 7, 1};
+unsigned int i;
+while (*c)
+for (i = 0; i < sizeof(key) / sizeof(char); i++)
 {
-for (b = 0; b < 10; b++)
-{
-if (n[a] == s1[b])
-{
-n[a] = s2[b];
+if (*c == key[i] || *c == key[i] + 32)
+*c = value [i] + 48;
 }
-}
-}
-return (n);
+c++
+return (cp);
 }
