@@ -13,5 +13,5 @@ while (dest[c])
 c++;
 for (c2 = 0; src[c2]; c2++)
 dest[c++] = str[c2];
-return;
+return (dest);
 }
