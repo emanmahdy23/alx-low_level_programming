@@ -5,12 +5,10 @@
 * @str: The string to be capitalized.
 * Return: A pointer to the changed string.
 */
-int isLower(char c)
+int isLower(char ptr)
 {
 return (c >= 97 && c <= 122);
-}
-int isDelimiter(char c)
-{
+}{
 int i;
 char delimiter[] = " \t\n,.!?\"(){}";
 for (i = 0; i < 12; i++)
