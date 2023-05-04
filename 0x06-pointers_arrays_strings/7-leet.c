@@ -4,18 +4,18 @@
 * @n: string
 * Return: string
 */
-char *leet(char *c)
+char *leet(char *n)
 {
-char cp = c;
+char cp = n;
 char key[] = {'A', 'E', 'O', 'T', 'L'};
 int value[] = {4, 3, 0, 7, 1};
 unsigned int i;
-while (*c)
+while (*n)
 for (i = 0; i < sizeof(key) / sizeof(char); i++)
 {
-if (*c == key[i] || *c == key[i] + 32)
-*c = value [i] + 48;
+if (*n == key[i] || *n == key[i] + 32)
+*n = value[i] + 48;
 }
-c++
-return (cp);
+n++
+return (n);
 }
