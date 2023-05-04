@@ -5,7 +5,7 @@
 * @str: The string to be capitalized.
 * Return: A pointer to the changed string.
 */
-int isLower(char ptr)
+int isLower(char *s)
 {
 return (c >= 97 && c <= 122);
 }{
